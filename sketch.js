@@ -12,8 +12,8 @@ function preload(){
 }
 
 function setup() {
-  pictureHeight = picture.height/2;
-  pictureWidth = picture.width/2;
+  pictureHeight = picture.height/4;
+  pictureWidth = picture.width/4;
 
   createCanvas (pictureWidth, pictureHeight);
 
