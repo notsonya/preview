@@ -12,8 +12,8 @@ function preload(){
 }
 
 function setup() {
-  pictureHeight = picture.height/2.5;
-  pictureWidth = picture.width/2.5;
+  pictureHeight = picture.height;
+  pictureWidth = picture.width;
 
   createCanvas (pictureWidth, pictureHeight);
 
@@ -40,18 +40,18 @@ function draw () {
       let char = "meow";
 
       if (color < 80){
-        char = "."
+        char = "✧✧"
       }
 
       if (color < 60){
-        char = "░"
+        char = "*"
       }
 
       if (color < 40){
-        char = "▓"
+        char = "░"
       }
       if (color < 20){
-        char = "-"
+        char = "▓"
       }
       text(char, x * tileWidth, y * tileHeight);
 
